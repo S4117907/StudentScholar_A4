@@ -99,7 +99,7 @@ public class Course {
 
    private boolean hasMinimumWords(String description) {
       if (description == null || description.trim().isEmpty()) {
-         return false; // no words at all
+         return false;
       }
 
       String[] words = description.trim().split("\\s+");
@@ -149,7 +149,7 @@ public class Course {
       try {
          return LocalDateTime.parse(dateTime, DATE_TIME_FORMATTER);
       } catch (DateTimeParseException e) {
-         return null; // impossible calendar date or time
+         return null; 
       }
    }
 

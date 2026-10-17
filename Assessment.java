@@ -1,5 +1,4 @@
 package course;
-
 /**
  * Assessment - represents a single assessment item that belongs to a Course in the StudentScholar website.
  * 

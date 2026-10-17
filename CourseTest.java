@@ -30,7 +30,6 @@ class CourseTest {
    @BeforeEach
    void setUp() {
       course = new Course();
-      // Precondition: every test starts from an empty course with 0 points used.
       assertEquals(0, course.getAssessments().size(), "Precondition: course should start empty");
       assertEquals(0, course.getTotalPoints(), "Precondition: course should start with 0 points");
    }
